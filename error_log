@@ -1,0 +1,114 @@
+[24-Jul-2025 12:23:55 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #15 cannot be passed by reference in /home/zuriktru/public_html/app.zuriktrucka.com/registration.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/registration.php on line 46
+[24-Jul-2025 12:28:41 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/zuriktru/public_html/app.zuriktrucka.com/registration.php:76
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/registration.php(76): mysqli_stmt->bind_param('issssssssssssss...', 13, 'RICHARD JW', '2025-07-25', 'Male', 'NIGERIAN', 'Enterprise Hous...', 'London', 'United Kingdom', 'SW3 6RD', 'Nigeria', 'sales@dgmlogist...', '07822031230', 'no', '', '', '', 'no', '', '', '', 'no', '', 'yes', 'nill', 'nill', 'English', 'yed', 'yes', '2025-07-18', 'Portugal', 'Self-funded', 'no', '', 'googr', 'no', '1', 'RICHARD JW')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/registration.php on line 76
+[24-Jul-2025 12:42:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/zuriktru/public_html/app.zuriktrucka.com/registration.php:14
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/registration.php(14): mysqli->prepare('INSERT INTO reg...')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/registration.php on line 14
+[24-Jul-2025 14:00:48 UTC] Column count doesn't match value count at row 1
+[24-Jul-2025 14:05:02 UTC] Registration Error: Column count doesn't match value count at row 1
+[24-Jul-2025 14:23:19 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/zuriktru/public_html/app.zuriktrucka.com/login.php on line 13
+[24-Jul-2025 14:34:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_mail() in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php on line 42
+[24-Jul-2025 14:45:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setup_mailer() in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php on line 44
+[24-Jul-2025 14:46:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setup_mailer() in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php on line 44
+[24-Jul-2025 14:52:25 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php on line 40
+[24-Jul-2025 14:55:56 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php on line 40
+[24-Jul-2025 14:58:27 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php on line 40
+[24-Jul-2025 23:20:01 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php:51
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/forgot_password.php on line 51
+[24-Jul-2025 23:29:04 UTC] Mailer Error: SMTP Error: Could not connect to SMTP host.
+[24-Jul-2025 23:38:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'session_token' in 'field list' in /home/zuriktru/public_html/app.zuriktrucka.com/reset_password.php:93
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/reset_password.php(93): mysqli->query('UPDATE users SE...')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/reset_password.php on line 93
+[29-Jul-2025 09:10:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'passport_photo' in 'field list' in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php:18
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php(18): mysqli->prepare('SELECT passport...')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 18
+[29-Jul-2025 09:10:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'passport_photo' in 'field list' in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php:18
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php(18): mysqli->prepare('SELECT passport...')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 18
+[29-Jul-2025 09:10:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'passport_photo' in 'field list' in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php:18
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php(18): mysqli->prepare('SELECT passport...')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 18
+[29-Jul-2025 09:12:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'passport_photo' in 'field list' in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php:18
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php(18): mysqli->prepare('SELECT passport...')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 18
+[29-Jul-2025 09:13:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'passport_photo' in 'field list' in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php:21
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php(21): mysqli->prepare('SELECT passport...')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 21
+[29-Jul-2025 09:41:07 UTC] PHP Warning:  Undefined variable $success in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 74
+[29-Jul-2025 09:41:07 UTC] PHP Warning:  Undefined variable $error in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 77
+[29-Jul-2025 09:41:07 UTC] PHP Warning:  Undefined variable $app_status in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 132
+[29-Jul-2025 09:41:07 UTC] PHP Warning:  Undefined variable $app_status in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 133
+[29-Jul-2025 09:41:07 UTC] PHP Warning:  Undefined variable $app_status in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 134
+[29-Jul-2025 09:41:07 UTC] PHP Warning:  Undefined variable $app_status in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 135
+[29-Jul-2025 09:41:07 UTC] PHP Warning:  Undefined variable $app_status in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 136
+[29-Jul-2025 09:41:07 UTC] PHP Warning:  Undefined variable $app_status in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 137
+[12-Aug-2025 10:11:06 UTC] Render mail error HTTP:0 Resp: CurlErr:Operation timed out after 10001 milliseconds with 0 bytes received
+[17-Aug-2025 17:13:07 UTC] Render mail error HTTP:0 Resp: CurlErr:Operation timed out after 10001 milliseconds with 0 bytes received
+[19-Aug-2025 10:20:17 UTC] PHP Warning:  Undefined variable $full_name in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 116
+[19-Aug-2025 10:20:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 116
+[19-Aug-2025 10:24:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'zuriktru_db.registration' doesn't exist in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php:41
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php(41): mysqli->prepare('SELECT full_nam...')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 41
+[19-Aug-2025 10:26:03 UTC] PHP Warning:  Undefined variable $full_name in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 140
+[19-Aug-2025 10:26:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 140
+[19-Aug-2025 16:10:45 UTC] Registration mail failed for splashsupremo@gmail.com. HTTP:401 Resp:Unauthorized CurlErr:
+[19-Aug-2025 20:09:56 UTC] Registration mail failed for splashsupremo@gmail.com. HTTP:401 Resp:Unauthorized CurlErr:
+[19-Aug-2025 20:34:45 UTC] PHP Warning:  Undefined variable $passport_photo in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 91
+[19-Aug-2025 20:34:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 91
+[19-Aug-2025 20:34:45 UTC] PHP Warning:  Undefined variable $passport_photo in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 91
+[19-Aug-2025 20:34:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 91
+[19-Aug-2025 20:34:45 UTC] PHP Warning:  Undefined variable $full_name in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 91
+[19-Aug-2025 20:34:45 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 91
+[19-Aug-2025 20:34:45 UTC] PHP Warning:  Undefined variable $app_status in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 91
+[19-Aug-2025 20:34:45 UTC] PHP Deprecated:  ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 91
+[19-Aug-2025 20:34:45 UTC] PHP Warning:  Undefined variable $success in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 91
+[19-Aug-2025 20:34:45 UTC] PHP Warning:  Undefined variable $error in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 91
+[19-Aug-2025 20:34:45 UTC] PHP Warning:  Undefined variable $app_status in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 104
+[19-Aug-2025 20:34:45 UTC] PHP Deprecated:  ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 104
+[30-Aug-2025 12:40:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php:45
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php(45): mysqli->prepare('SELECT full_nam...')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/dashboard.php on line 45

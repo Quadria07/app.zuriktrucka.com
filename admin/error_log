@@ -1,0 +1,61 @@
+[25-Jul-2025 00:11:28 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php on line 2
+[25-Jul-2025 00:11:28 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php on line 2
+[25-Jul-2025 00:11:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php on line 2
+[25-Jul-2025 00:12:15 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php on line 2
+[25-Jul-2025 00:12:15 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php on line 2
+[25-Jul-2025 00:12:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php on line 2
+[25-Jul-2025 00:12:45 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_dashboard.php on line 2
+[25-Jul-2025 00:12:45 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_dashboard.php on line 2
+[25-Jul-2025 00:12:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_dashboard.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_dashboard.php on line 2
+[25-Jul-2025 00:15:49 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php on line 22
+[25-Jul-2025 00:15:49 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php on line 22
+[25-Jul-2025 00:15:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/login.php on line 22
+[25-Jul-2025 00:18:05 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #3 cannot be passed by reference in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_dashboard.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_dashboard.php on line 13
+[25-Jul-2025 00:22:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'full_name' in 'field list' in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_dashboard.php:42
+Stack trace:
+#0 /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_dashboard.php(42): mysqli->prepare('SELECT id, emai...')
+#1 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_dashboard.php on line 42
+[25-Jul-2025 00:36:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_activity.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_activity.php on line 5
+[25-Jul-2025 00:36:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_edit_user.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_edit_user.php on line 5
+[25-Jul-2025 00:37:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_edit_user.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_edit_user.php on line 5
+[25-Jul-2025 00:37:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_edit_user.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_edit_user.php on line 5
+[25-Jul-2025 00:43:16 UTC] PHP Fatal error:  Uncaught Error: mysqli_stmt::bind_param(): Argument #3 cannot be passed by reference in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_logout.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_logout.php on line 9
+[25-Jul-2025 00:56:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_delete_user.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_delete_user.php on line 5
+[25-Jul-2025 00:56:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isAdmin() in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_delete_user.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zuriktru/public_html/app.zuriktrucka.com/admin/admin_delete_user.php on line 5
